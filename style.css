@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&family=Oswald:wght@200..700&display=swap');
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Oswald", sans-serif;
+
+}
+
+nav{
+    height: 60px;
+    background-color: rgb(107, 19, 19);
+}
+
+nav a{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(71, 29, 29);
+    display: block;
+    color: white;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+    padding: 0;
+    align-items: center;
+    height: 60px;
+}
+
+.content{
+    display: flex;
+}
+
+main{
+    background-color: rgb(240, 240, 240);
+    flex: 3;
+}
+
+aside{
+    background-color: rgb(255, 240, 240);
+    flex: 1;
+}
