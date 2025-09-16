@@ -22,3 +22,12 @@
     > git commit -m "first commit"
 
 - távoli repo létrehozása (Git Hub) 
+
+- git a heyi repo és a git hub repo összekapcsolása, úgy hogy a presonal PAT történjen a hitelesítés (token@):
+    > git remote add origin https://token@github.com/...
+
+- az első push:
+    > git push -u origin master 
+
+- további push:
+    > git push
